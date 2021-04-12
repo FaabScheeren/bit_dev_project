@@ -1,0 +1,18 @@
+{
+  "name": "@bit/frankwatching.fw_7_test.atoms.fonts",
+  "version": "0.0.3",
+  "homepage": "https://bit.dev/frankwatching/fw_7_test/atoms/fonts",
+  "main": "_fonts.scss",
+  "componentId": {
+    "scope": "frankwatching.fw_7_test",
+    "name": "atoms/fonts",
+    "version": "0.0.3"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "peerDependencies": {},
+  "license": "SEE LICENSE IN LICENSE",
+  "bit": {
+    "env": {}
+  }
+}

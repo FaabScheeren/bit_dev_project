@@ -3,9 +3,20 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@bit/frankwatching.fw_7_test.atoms.colors": "file:./components/atoms/colors",
+    "@bit/frankwatching.fw_7_test.atoms.fonts": "file:./components/atoms/fonts",
+    "@bit/frankwatching.fw_7_test.atoms.global-styles": "^0.0.1",
+    "@bit/frankwatching.fw_7_test.atoms.icon-styles": "file:./components/atoms/icon-styles",
+    "@bit/frankwatching.fw_7_test.atoms.icons.arrow-right": "^0.0.1",
+    "@bit/frankwatching.fw_7_test.atoms.spacings": "file:./components/atoms/spacings",
+    "@bit/frankwatching.fw_7_test.icons.home-icon": "^0.0.2",
+    "@bit/frankwatching.fw_7_test.molecules.button": "file:./components/molecules/button",
+    "@bit/frankwatching.fw_7_test.molecules.checkbox": "^0.0.1",
+    "@bit/frankwatching.fw_7_test.molecules.inputfield": "^0.0.1",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "node-sass": "^5.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
@@ -15,7 +26,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "bit-export": "bit export frankwatching.fw_7_test",
+    "watch": "cross-env NODE_ENV=development webpack --progress --watch --config webpack.config.js"
   },
   "eslintConfig": {
     "extends": [
@@ -34,5 +47,34 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/compilers/react@2.0.0"
+    },
+    "componentsDefaultDirectory": "components/{name}",
+    "packageManager": "npm",
+    "overrides": {
+      "atoms/*": {
+        "env": {
+          "compiler": "-"
+        }
+      },
+      "frankwatching.fw_7_test/atoms/colors": {}
+    }
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.13.15",
+    "@babel/preset-react": "^7.13.13",
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-async-to-promises": "^0.8.15",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-es2015-destructuring": "^6.23.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "cross-env": "^7.0.3",
+    "css-loader": "^5.2.1",
+    "style-loader": "^2.0.0",
+    "webpack-cli": "^4.6.0"
   }
 }
