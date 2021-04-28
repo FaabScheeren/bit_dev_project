@@ -5,7 +5,7 @@
   "dependencies": {
     "@bit/frankwatching.fw_7_test.atoms.colors": "file:./components/atoms/colors",
     "@bit/frankwatching.fw_7_test.atoms.fonts": "file:./components/atoms/fonts",
-    "@bit/frankwatching.fw_7_test.atoms.global-styles": "^0.0.1",
+    "@bit/frankwatching.fw_7_test.atoms.global-styles": "file:./components/atoms/global-styles",
     "@bit/frankwatching.fw_7_test.atoms.icon-styles": "file:./components/atoms/icon-styles",
     "@bit/frankwatching.fw_7_test.atoms.icons.arrow-right": "^0.0.2",
     "@bit/frankwatching.fw_7_test.atoms.spacings": "file:./components/atoms/spacings",

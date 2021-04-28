@@ -1,0 +1,24 @@
+{
+  "name": "@bit/frankwatching.fw_7_test.atoms.global-styles",
+  "version": "0.0.1",
+  "homepage": "https://bit.dev/frankwatching/fw_7_test/atoms/global-styles",
+  "main": "dist/globals/_globals.scss",
+  "componentId": {
+    "scope": "frankwatching.fw_7_test",
+    "name": "atoms/global-styles",
+    "version": "0.0.1"
+  },
+  "dependencies": {
+    "@bit/frankwatching.fw_7_test.atoms.colors": "file:../colors",
+    "@bit/frankwatching.fw_7_test.atoms.fonts": "file:../fonts",
+    "@bit/frankwatching.fw_7_test.atoms.spacings": "file:../spacings"
+  },
+  "devDependencies": {},
+  "peerDependencies": {},
+  "license": "SEE LICENSE IN LICENSE",
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/compilers/react@2.0.0"
+    }
+  }
+}

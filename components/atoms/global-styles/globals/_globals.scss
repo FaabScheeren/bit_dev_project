@@ -1,0 +1,23 @@
+@import '../colors/colors';
+@import '../fonts/fonts';
+@import '../spacing/spacings';
+
+h1 {
+  margin-top: $desktop-spacing-xl + 8px;
+  margin-bottom: $desktop-spacing-xl;
+  font-family: $default-font;
+  font-weight: $fw-bold;
+  color: $core;
+}
+
+p {
+  margin-bottom: 32px;
+  font-family: $default-font;
+}
+
+.checkbox_group_label {
+  margin-bottom: $spacing-sm;
+  font-weight: $fw-bold;
+  display: block;
+  font-family: $default-font;
+}

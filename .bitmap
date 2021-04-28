@@ -27,6 +27,19 @@
         "origin": "IMPORTED",
         "originallySharedDir": "src/atoms/fonts"
     },
+    "frankwatching.fw_7_test/atoms/global-styles@0.0.1": {
+        "files": [
+            {
+                "name": "_globals.scss",
+                "relativePath": "globals/_globals.scss",
+                "test": false
+            }
+        ],
+        "mainFile": "globals/_globals.scss",
+        "rootDir": "components/atoms/global-styles",
+        "origin": "IMPORTED",
+        "originallySharedDir": "src/atoms"
+    },
     "frankwatching.fw_7_test/atoms/icon-styles@0.0.3": {
         "files": [
             {
