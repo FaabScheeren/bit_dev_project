@@ -1,0 +1,23 @@
+{
+  "name": "@bit/frankwatching.fw_7_test.molecules.dropdown",
+  "version": "0.0.3",
+  "homepage": "https://bit.dev/frankwatching/fw_7_test/molecules/dropdown",
+  "main": "dist/molecules/dropdown/index.js",
+  "componentId": {
+    "scope": "frankwatching.fw_7_test",
+    "name": "molecules/dropdown",
+    "version": "0.0.2"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "@bit/frankwatching.fw_7_test.atoms.colors": "file:../../atoms/colors"
+  },
+  "devDependencies": {},
+  "peerDependencies": {},
+  "license": "SEE LICENSE IN LICENSE",
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/compilers/react@2.0.0"
+    }
+  }
+}

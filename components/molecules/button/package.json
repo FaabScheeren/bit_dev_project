@@ -1,16 +1,16 @@
 {
   "name": "@bit/frankwatching.fw_7_test.molecules.button",
-  "version": "0.0.10",
+  "version": "0.0.15",
   "homepage": "https://bit.dev/frankwatching/fw_7_test/molecules/button",
   "main": "dist/molecules/button/index.js",
   "componentId": {
     "scope": "frankwatching.fw_7_test",
     "name": "molecules/button",
-    "version": "0.0.9"
+    "version": "0.0.15"
   },
   "dependencies": {
     "react": "^17.0.2",
-    "@bit/frankwatching.fw_7_test.atoms.icons.arrow-right": "0.0.1",
+    "@bit/frankwatching.fw_7_test.atoms.icons.arrow-right": "0.0.2",
     "@bit/frankwatching.fw_7_test.icons.home-icon": "0.0.2",
     "@bit/frankwatching.fw_7_test.atoms.colors": "file:../../atoms/colors",
     "@bit/frankwatching.fw_7_test.atoms.fonts": "file:../../atoms/fonts",

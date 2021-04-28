@@ -7,12 +7,13 @@
     "@bit/frankwatching.fw_7_test.atoms.fonts": "file:./components/atoms/fonts",
     "@bit/frankwatching.fw_7_test.atoms.global-styles": "^0.0.1",
     "@bit/frankwatching.fw_7_test.atoms.icon-styles": "file:./components/atoms/icon-styles",
-    "@bit/frankwatching.fw_7_test.atoms.icons.arrow-right": "^0.0.1",
+    "@bit/frankwatching.fw_7_test.atoms.icons.arrow-right": "^0.0.2",
     "@bit/frankwatching.fw_7_test.atoms.spacings": "file:./components/atoms/spacings",
     "@bit/frankwatching.fw_7_test.icons.home-icon": "^0.0.2",
     "@bit/frankwatching.fw_7_test.molecules.button": "file:./components/molecules/button",
     "@bit/frankwatching.fw_7_test.molecules.checkbox": "^0.0.1",
-    "@bit/frankwatching.fw_7_test.molecules.inputfield": "^0.0.1",
+    "@bit/frankwatching.fw_7_test.molecules.dropdown": "file:./components/molecules/dropdown",
+    "@bit/frankwatching.fw_7_test.molecules.inputfield": "file:./components/molecules/inputfield",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
@@ -72,9 +73,12 @@
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-plugin-transform-es2015-destructuring": "^6.23.0",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "browser-sync": "^2.26.14",
+    "browser-sync-webpack-plugin": "^2.3.0",
     "cross-env": "^7.0.3",
     "css-loader": "^5.2.1",
     "style-loader": "^2.0.0",
+    "svg-url-loader": "^7.1.1",
     "webpack-cli": "^4.6.0"
   }
 }

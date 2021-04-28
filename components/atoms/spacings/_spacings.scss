@@ -2,6 +2,7 @@
 $spacing-lg: 48px;
 $spacing-md: 32px;
 $spacing-sm: 16px;
+$spacing-xs: 4px;
 
 // Spacing based on breakpoints
 // Desktop
@@ -11,3 +12,6 @@ $desktop-spacing-m: 32px;
 // Mobile
 $mobile-spacing-xl: 48px;
 $mobile-spacing-m: 16px;
+
+// Border radius
+$def-border-radius: 4px;

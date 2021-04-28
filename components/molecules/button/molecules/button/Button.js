@@ -4,9 +4,10 @@ import ArrowRight from '../../atoms/icons/ArrowRight'
 import HomeIcon from '../../atoms/icons/Home'
 
 function Button(props) {
+  console.log(props);
   const icon = {
-    home: HomeIcon,
-    'arrow-right': ArrowRight
+    HomeIcon,
+    ArrowRight
   }
 
   let ComponentIconRight, ComponentIconLeft

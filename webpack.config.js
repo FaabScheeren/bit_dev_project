@@ -1,4 +1,6 @@
 const path = require("path");
+const BrowserSyncPlugin = require("browser-sync-webpack-plugin");
+
 
 module.exports = {
   devtool: "source-map",
@@ -45,6 +47,27 @@ module.exports = {
         test: /\.(jpg|png|gif)$/,
         loader: "url-loader",
       },
+      {
+        test: /\.svg$/,
+        use: {
+          loader: "svg-url-loader",
+          options: {
+            encoding: "base64",
+          },
+        },
+      },
     ],
   },
+
+  plugins: [
+    new BrowserSyncPlugin(
+      // BrowserSync options
+      {
+        host: "localhost",
+        port: 8000,
+        server: { baseDir: ["build"] },
+      }
+    ),
+    // new ManifestPlugin(),
+  ],
 };

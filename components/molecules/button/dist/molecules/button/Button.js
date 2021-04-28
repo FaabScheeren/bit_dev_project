@@ -18,9 +18,10 @@ var _jsxRuntime = require("react/jsx-runtime");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function Button(props) {
+  console.log(props);
   var icon = {
-    home: _Home.default,
-    'arrow-right': _ArrowRight.default
+    HomeIcon: _Home.default,
+    ArrowRight: _ArrowRight.default
   };
   var ComponentIconRight, ComponentIconLeft;
 

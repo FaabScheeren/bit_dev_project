@@ -1,0 +1,11 @@
+@import '../../atoms/colors/colors';
+
+select {
+  width: 250px;
+  padding: 6px 12px;
+  font-family: 'roboto';
+  font-size: 16px;
+  color: $core;
+  border: 0.1px solid $core;
+  border-radius: 4px;
+}

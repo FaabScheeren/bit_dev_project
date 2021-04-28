@@ -1,18 +1,20 @@
 {
   "name": "@bit/frankwatching.fw_7_test.atoms.icon-styles",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "homepage": "https://bit.dev/frankwatching/fw_7_test/atoms/icon-styles",
-  "main": "styles.scss",
+  "main": "dist/styles.scss",
   "componentId": {
     "scope": "frankwatching.fw_7_test",
     "name": "atoms/icon-styles",
-    "version": "0.0.2"
+    "version": "0.0.3"
   },
   "dependencies": {},
   "devDependencies": {},
   "peerDependencies": {},
   "license": "SEE LICENSE IN LICENSE",
   "bit": {
-    "env": {}
+    "env": {
+      "compiler": "bit.envs/compilers/react@2.0.0"
+    }
   }
 }

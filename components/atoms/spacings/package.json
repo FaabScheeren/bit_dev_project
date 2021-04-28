@@ -1,12 +1,12 @@
 {
   "name": "@bit/frankwatching.fw_7_test.atoms.spacings",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "homepage": "https://bit.dev/frankwatching/fw_7_test/atoms/spacings",
   "main": "dist/_spacings.scss",
   "componentId": {
     "scope": "frankwatching.fw_7_test",
     "name": "atoms/spacings",
-    "version": "0.0.2"
+    "version": "0.0.3"
   },
   "dependencies": {},
   "devDependencies": {},

@@ -27,7 +27,20 @@
         "origin": "IMPORTED",
         "originallySharedDir": "src/atoms/fonts"
     },
-    "frankwatching.fw_7_test/atoms/spacings@0.0.2": {
+    "frankwatching.fw_7_test/atoms/icon-styles@0.0.3": {
+        "files": [
+            {
+                "name": "styles.scss",
+                "relativePath": "styles.scss",
+                "test": false
+            }
+        ],
+        "mainFile": "styles.scss",
+        "rootDir": "components/atoms/icon-styles",
+        "origin": "IMPORTED",
+        "originallySharedDir": "src/atoms/icons"
+    },
+    "frankwatching.fw_7_test/atoms/spacings@0.0.3": {
         "files": [
             {
                 "name": "_spacings.scss",
@@ -40,11 +53,16 @@
         "origin": "IMPORTED",
         "originallySharedDir": "src/atoms/spacing"
     },
-    "frankwatching.fw_7_test/molecules/button@0.0.10": {
+    "frankwatching.fw_7_test/molecules/button@0.0.14": {
         "files": [
             {
                 "name": "Button.js",
                 "relativePath": "molecules/button/Button.js",
+                "test": false
+            },
+            {
+                "name": "button.md",
+                "relativePath": "molecules/button/button.md",
                 "test": false
             },
             {
@@ -60,6 +78,57 @@
         ],
         "mainFile": "molecules/button/index.js",
         "rootDir": "components/molecules/button",
+        "origin": "IMPORTED",
+        "originallySharedDir": "src"
+    },
+    "frankwatching.fw_7_test/molecules/dropdown@0.0.3": {
+        "files": [
+            {
+                "name": "Dropdown.js",
+                "relativePath": "molecules/dropdown/Dropdown.js",
+                "test": false
+            },
+            {
+                "name": "index.js",
+                "relativePath": "molecules/dropdown/index.js",
+                "test": false
+            },
+            {
+                "name": "style.scss",
+                "relativePath": "molecules/dropdown/style.scss",
+                "test": false
+            }
+        ],
+        "mainFile": "molecules/dropdown/index.js",
+        "rootDir": "components/molecules/dropdown",
+        "origin": "IMPORTED",
+        "originallySharedDir": "src"
+    },
+    "frankwatching.fw_7_test/molecules/inputfield@0.0.2": {
+        "files": [
+            {
+                "name": "Inputfield.js",
+                "relativePath": "molecules/inputfield/Inputfield.js",
+                "test": false
+            },
+            {
+                "name": "doc.md",
+                "relativePath": "molecules/inputfield/doc.md",
+                "test": false
+            },
+            {
+                "name": "index.js",
+                "relativePath": "molecules/inputfield/index.js",
+                "test": false
+            },
+            {
+                "name": "style.scss",
+                "relativePath": "molecules/inputfield/style.scss",
+                "test": false
+            }
+        ],
+        "mainFile": "molecules/inputfield/index.js",
+        "rootDir": "components/molecules/inputfield",
         "origin": "IMPORTED",
         "originallySharedDir": "src"
     },

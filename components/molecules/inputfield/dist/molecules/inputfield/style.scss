@@ -1,0 +1,32 @@
+@import '../../atoms/fonts/fonts';
+@import '../../atoms/spacing/spacings';
+@import '../../atoms/colors/colors';
+
+.inputfield {
+  &_wrapper {
+    text-align: left;
+  }
+
+  &_label {
+    font-size: $D-font-size-base-sm;
+    font-weight: $fw-bold;
+    font-family: $default-font;
+    line-height: $desktop-lh-base-sm;
+    margin-bottom: $spacing-xs;
+  }
+
+  &_input {
+    height: $spacing-lg;
+    margin-bottom: $spacing-md;
+    padding: 12px 16px;
+    box-sizing: border-box;
+    display: block;
+    width: 278px;
+    font-family: $default-font;
+    font-size: $D-font-size-base-sm;
+    color: $deemphasized;
+    border: 1px solid #B3B3B3;
+    line-height: $desktop-lh-base-sm;
+    border-radius: $def-border-radius;
+  }
+}
